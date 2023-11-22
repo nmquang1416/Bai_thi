@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>validate form</title>
+
+</head>
+<body>
+    <section>
+        <h1>
+            multi steps form widget
+        </h1>
+        <div class="main">
+            <button class="btn">
+                Profile
+            </button>
+
+            <form action="">
+                <input type="text" id="first-name" placeholder="First name" required>
+
+
+                <input type="text" id="last-name" placeholder="Last name" required>
+
+
+                <input type="text" pattern="[0-9]{10}" id="phone"
+                placeholder="Your phone">
+
+                Gender:
+                <input type="radio" name="female"  id="female" value="female" required> 
+                <label for="female">Female</label>
+                <span id="er-female">
+                    
+                </span>
+
+                <input id="male" type="radio" name="male" value="male" required>
+                <label for="male">Male</label>
+                <span id="er-male"></span>
+
+
+                <textarea name="message" id="addres" cols="30" rows="10" placeholder="message ..."></textarea>
+
+                <button class="btn next-btn">next</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
