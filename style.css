@@ -59,7 +59,9 @@ input[type = "radio"]{
     border: solid 1px gray;
     margin-bottom: 24px;
 }
-
+button{
+    cursor: pointer;
+}
 form textarea#addres{
     width: 100%;
     padding: 16px 0px;

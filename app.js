@@ -1,10 +1,11 @@
 const radio_rq_female = document.getElementById("female");
 const radio_rq_male = document.getElementById("male");
 
-const er
+const er_female = document.getElementById("er-female");
+const er_male = document.getElementById("er-male");
 
 function error_radio() {
-    if (radio_rq_female = 0) {
-        er_fisrt_name.innerHTML('p')   
+    if (radio_rq_female < 0) {
+        er_female.required =true;
     }
 }
