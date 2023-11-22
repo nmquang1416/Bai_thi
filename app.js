@@ -1,7 +1,7 @@
 const radio_rq_female = document.getElementById("female");
 const radio_rq_male = document.getElementById("male");
 
-const er-
+const er
 
 function error_radio() {
     if (radio_rq_female = 0) {
